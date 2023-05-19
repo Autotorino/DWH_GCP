@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_0_bX8fY2Ee2S-Z-cajRXlQ" label="DWH_GCP_FLOW" description="DWH_GCP- Progetto per scambio dati tra DWH e Google Cloud Platform&#xA;" language="java" technicalLabel="DWH_GCP_FLOW" author="_0_bX8vY2Ee2S-Z-cajRXlQ" productVersion="Talend Cloud Data Integration-8.0.1.20220818_1145-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Autotorino/DWH_GCP.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_1Ad5wPY2Ee2S-Z-cajRXlQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_0_bX8vY2Ee2S-Z-cajRXlQ" login="gmazzoni@autotorino.it" firstName="DWH" lastName="Autotorino" type="DI"/>
+</xmi:XMI>

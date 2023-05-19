@@ -1,0 +1,78 @@
+package routines;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Map;
+
+import com.google.auth.oauth2.ServiceAccountCredentials;
+import com.google.cloud.storage.Blob;
+import com.google.cloud.storage.BlobId;
+import com.google.cloud.storage.BlobInfo;
+import com.google.cloud.storage.Bucket;
+import com.google.cloud.storage.Storage;
+import com.google.cloud.storage.StorageOptions;
+
+
+
+public class GoogleStorageCloudUtil {
+
+	private static Storage storage = null;
+    
+	
+	public static void uploadOnBucket(String jobName,String nameFile,Map<String,String> metaData,FileInputStream stream,String contentType,
+			                                 String fullPathJsonKey,String projectId,String bucketName) throws FileNotFoundException, IOException {
+		
+		if (storage==null)
+			storage = StorageOptions.newBuilder()
+				    .setCredentials(ServiceAccountCredentials.fromStream(new FileInputStream(fullPathJsonKey)))
+				    .setProjectId(projectId)
+				    .build()
+				    .getService();
+		
+    	//Bucket bucket = storage.get(bucketName);
+
+		
+		
+		BlobId blobId = BlobId.of(bucketName, nameFile);
+		BlobInfo blobInfo = BlobInfo.newBuilder(blobId).setContentType(contentType).setMetadata(metaData).build();
+		
+		storage.createFrom(blobInfo, stream);
+		
+		org.apache.log4j.Logger.getRootLogger().info("["+jobName+"]:<File :"+nameFile+" caricato correttamente.>");
+		
+		
+    }
+	
+	
+	public static void deleteFileFromBucket(String jobName,String searchMetadataKey,String searchMetadataValue,String fullPathJsonKey,String projectId,String bucketName) 
+			throws FileNotFoundException , IOException  {
+		
+		if (storage==null)
+			storage = StorageOptions.newBuilder()
+				    .setCredentials(ServiceAccountCredentials.fromStream(new FileInputStream(fullPathJsonKey)))
+				    .setProjectId(projectId)
+				    .build()
+				    .getService();
+		
+		Bucket bucket = storage.get(bucketName);
+		
+
+		
+		for (Blob blobElement : bucket.list().iterateAll()) {
+			 
+			 Map<String,String> metaData = (Map<String,String>)blobElement.getMetadata();
+			 
+			 if (metaData!= null && metaData.get(searchMetadataKey)!= null && ((String)metaData.get(searchMetadataKey)).equals(searchMetadataValue))
+			 {
+				org.apache.log4j.Logger.getRootLogger().info("["+jobName+"]:<File :"+blobElement.getName()+" eliminato correttamente.>");
+			    
+				BlobId blobId = BlobId.of(bucketName,blobElement.getName());
+			    storage.delete(blobId);
+		      }
+		}
+
+		
+		
+    }
+}
