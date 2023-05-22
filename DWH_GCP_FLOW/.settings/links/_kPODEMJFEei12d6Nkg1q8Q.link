@@ -75,6 +75,24 @@
     }, {
       "id" : "_rTqeQfO6Ee299I925hQfuA",
       "name" : "GCP_STORAGE_FOLDER_NRT"
+    }, {
+      "id" : "_SB1NpvicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_DATASET"
+    }, {
+      "id" : "_SB1Np_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_TABLENAME"
+    }, {
+      "id" : "_SB1NqPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
+    }, {
+      "id" : "_SB1NqficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
+    }, {
+      "id" : "_SB1NqvicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_WHERE"
+    }, {
+      "id" : "_SB1Nq_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_ORDER"
     } ]
   }, {
     "contextName" : "dev",
@@ -151,6 +169,24 @@
     }, {
       "id" : "_rTqeQ_O6Ee299I925hQfuA",
       "name" : "GCP_STORAGE_FOLDER_NRT"
+    }, {
+      "id" : "_SB1NrPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_DATASET"
+    }, {
+      "id" : "_SB1NrficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_TABLENAME"
+    }, {
+      "id" : "_SB1NrvicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
+    }, {
+      "id" : "_SB1Nr_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
+    }, {
+      "id" : "_SB1NsPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_WHERE"
+    }, {
+      "id" : "_SB1NsficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_ORDER"
     } ]
   }, {
     "contextName" : "Default",
@@ -227,6 +263,24 @@
     }, {
       "id" : "_rTp3MfO6Ee299I925hQfuA",
       "name" : "GCP_STORAGE_FOLDER_NRT"
+    }, {
+      "id" : "_SB1NoPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_DATASET"
+    }, {
+      "id" : "_SB1NoficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_TABLENAME"
+    }, {
+      "id" : "_SB1NovicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
+    }, {
+      "id" : "_SB1No_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
+    }, {
+      "id" : "_SB1NpPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_WHERE"
+    }, {
+      "id" : "_SB1NpficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_ORDER"
     } ]
   } ]
 }

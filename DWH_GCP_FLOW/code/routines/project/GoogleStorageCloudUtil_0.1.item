@@ -1,11 +1,24 @@
 package routines;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.UUID;
 
+import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
+import com.google.cloud.bigquery.BigQuery;
+import com.google.cloud.bigquery.BigQueryOptions;
+import com.google.cloud.bigquery.FieldValueList;
+import com.google.cloud.bigquery.Job;
+import com.google.cloud.bigquery.JobId;
+import com.google.cloud.bigquery.JobInfo;
+import com.google.cloud.bigquery.QueryJobConfiguration;
+import com.google.cloud.bigquery.TableResult;
 import com.google.cloud.storage.Blob;
 import com.google.cloud.storage.BlobId;
 import com.google.cloud.storage.BlobInfo;
@@ -75,4 +88,117 @@ public class GoogleStorageCloudUtil {
 		
 		
     }
+	
+	
+	public static int csvFileFromBigQuery(String jobName,
+			                               String bigQueryColumnSelect,
+			                               String bigQueryTable,
+			                               String bigQueryWhere,
+			                               String bigQueryOrder,
+			                               String fullPathJsonKey,
+			                               String projectId,
+			                               String dataset,
+			                               String fullpathCsvOut) 
+			                            		   throws FileNotFoundException, IOException,InterruptedException{
+		
+		GoogleCredentials credentials = ServiceAccountCredentials.fromStream(new FileInputStream(fullPathJsonKey));
+		
+	 	// Instantiate a client.
+	 	BigQuery bigquery =
+	 	      BigQueryOptions.newBuilder()
+	 	          .setCredentials(credentials)
+	 	          .setProjectId(projectId)
+	 	          .build()
+	 	          .getService();
+	 	
+	 	File csvFile = new File(fullpathCsvOut);
+		FileWriter fileWriter = new FileWriter(csvFile);
+		
+		String queryBig =  "SELECT "
+                 + bigQueryColumnSelect
+                 + " FROM "
+                 + projectId + "." + dataset + "." + bigQueryTable
+                 + (!UtilString.isEmptyTrim(bigQueryWhere) ? " WHERE "+ bigQueryWhere:"")
+                 + (!UtilString.isEmptyTrim(bigQueryOrder) ? " ORDER BY "+ bigQueryOrder:"");
+		
+		org.apache.log4j.Logger.getRootLogger().info("["+jobName+"]:<BigQuery :"+queryBig+">");
+		
+ 	    QueryJobConfiguration queryConfig =
+ 		        QueryJobConfiguration.newBuilder(
+ 		        		queryBig)
+ 		            .setUseLegacySql(false)
+ 		            .build();
+ 	    
+	    // Create a job ID so that we can safely retry.
+	    JobId jobId = JobId.of(UUID.randomUUID().toString());
+	    Job queryJob = bigquery.create(JobInfo.newBuilder(queryConfig).setJobId(jobId).build()); 	    
+        
+	    // Wait for the query to complete.
+	    queryJob = queryJob.waitFor();
+	    
+	    // Check for errors
+	    if (queryJob == null) {
+	      throw new RuntimeException("Job no longer exists");
+	    } else if (queryJob.getStatus().getError() != null) {
+	      // You can also look at queryJob.getStatus().getExecutionErrors() for all
+	      // errors, not just the latest one.
+	      throw new RuntimeException(queryJob.getStatus().getError().toString());
+	    }	    
+	    
+	    // Get the results.
+	    TableResult result = queryJob.getQueryResults();
+	    
+	    Iterable<FieldValueList> iterableResult = result.getValues();
+	    Iterator<FieldValueList> iteratorRow = iterableResult.iterator();
+	    
+	    String [] dataIntestazione = (bigQueryColumnSelect+",ds_modifica_data").split(",");
+	    
+	    fileWriter.write(lineCSV(dataIntestazione));
+	    
+	    int count = 0;
+	    
+		while(iteratorRow.hasNext()) {
+		    	FieldValueList row = iteratorRow.next();
+		    	
+		    	String[] dataRow = new String[dataIntestazione.length];
+		    	
+		    	for(int i=0;i<dataIntestazione.length-1;i++) {
+		    		
+		    		
+		    		dataRow[i] = row.get(dataIntestazione[i]).getStringValue();
+		    	}
+		    	
+		    	dataRow[dataIntestazione.length-1] = TalendDate.getDate("yyyy-MM-dd HH:mm:ss");
+		    	
+		    	fileWriter.write(lineCSV(dataRow));
+		    	count++;
+
+		}
+		
+		org.apache.log4j.Logger.getRootLogger().info("["+jobName+"]:<Record estratti da :"+projectId + "." + dataset + "." + bigQueryTable+" - "+count+">");
+		
+		fileWriter.close();
+		
+		return count;
+	    
+	}
+	
+    private static String lineCSV (String[] dataIntestazione){
+		
+		try {
+			StringBuilder line = new StringBuilder();
+			for (int i = 0; i < dataIntestazione.length; i++) {
+			    line.append(dataIntestazione[i]);
+			    if (i != dataIntestazione.length - 1) {
+			        ;line.append(';');
+			    }
+			}
+			line.append("\n");
+			
+			return line.toString();
+		} catch (Exception e) {
+
+			return "";
+		}
+	 }
 }
