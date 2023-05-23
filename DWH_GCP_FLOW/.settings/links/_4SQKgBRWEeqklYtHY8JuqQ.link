@@ -93,6 +93,24 @@
     }, {
       "id" : "_SB1Nq_icEe2P1PQOyOra7A",
       "name" : "GCP_BIGQUERY_ORDER"
+    }, {
+      "id" : "_Zer19vk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Path"
+    }, {
+      "id" : "_Zer19_k6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Profile"
+    }, {
+      "id" : "_Zer1-Pk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+    }, {
+      "id" : "_Zer1-fk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Bucket"
+    }, {
+      "id" : "_Zer1-vk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_ContentType"
+    }, {
+      "id" : "_Zer1-_k6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Region"
     } ]
   }, {
     "contextName" : "dev",
@@ -187,6 +205,24 @@
     }, {
       "id" : "_SB1NsficEe2P1PQOyOra7A",
       "name" : "GCP_BIGQUERY_ORDER"
+    }, {
+      "id" : "_Zer1_Pk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Path"
+    }, {
+      "id" : "_Zer1_fk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Profile"
+    }, {
+      "id" : "_Zer1_vk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+    }, {
+      "id" : "_Zer1__k6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Bucket"
+    }, {
+      "id" : "_Zer2APk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_ContentType"
+    }, {
+      "id" : "_Zer2Afk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Region"
     } ]
   }, {
     "contextName" : "Default",
@@ -281,6 +317,24 @@
     }, {
       "id" : "_SB1NpficEe2P1PQOyOra7A",
       "name" : "GCP_BIGQUERY_ORDER"
+    }, {
+      "id" : "_Zer18Pk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Path"
+    }, {
+      "id" : "_Zer18fk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Profile"
+    }, {
+      "id" : "_Zer18vk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+    }, {
+      "id" : "_Zer18_k6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Bucket"
+    }, {
+      "id" : "_Zer19Pk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_ContentType"
+    }, {
+      "id" : "_Zer19fk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Region"
     } ]
   } ]
 }
