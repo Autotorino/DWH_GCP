@@ -165,7 +165,7 @@ public class GoogleStorageCloudUtil {
 		    	for(int i=0;i<dataIntestazione.length-1;i++) {
 		    		
 		    		
-		    		dataRow[i] = row.get(dataIntestazione[i]).getStringValue();
+		    		dataRow[i] = !row.get(dataIntestazione[i]).isNull() ? row.get(dataIntestazione[i]).getStringValue():null;
 		    	}
 		    	
 		    	dataRow[dataIntestazione.length-1] = TalendDate.getDate("yyyy-MM-dd HH:mm:ss");
