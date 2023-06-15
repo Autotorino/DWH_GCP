@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="prod">
     <contextParameter comment="" internalId="_uSc_0Pk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Url" prompt="ORACLE_CLOUD_Url?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="jdbc:oracle:thin:@autotorinodwh_medium?TNS_ADMIN=E:\\Talend\\Talend-ConfConnections\\OracleCloud\\Wallet_autotorinodwh"/>
-    <contextParameter comment="" internalId="_uSc_0fk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Password" prompt="ORACLE_CLOUD_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:BPU+Wz5VwePfaoQ4UoEr5lgBKLsUTDVGZUniblkOQ5gxNrvgQz2wncOM"/>
+    <contextParameter comment="" internalId="_uSc_0fk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Password" prompt="ORACLE_CLOUD_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:fAxDPtaFWXygSUh40+RE3an74W5a597H9iUVC14PfufLwAFGwuKmRCci"/>
     <contextParameter comment="" internalId="_uSc_0vk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Username" prompt="ORACLE_CLOUD_Username?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="DI_DATA_CONFIG"/>
     <contextParameter comment="" internalId="_uSc_0_k6Ee2w9o6V70pqNw" name="TALEND_PATH_FILE_CSV" prompt="TALEND_PATH_FILE_CSV?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="E:/Talend/Talend-Output/DataSource/DWH_GCP/StorageFisico/"/>
     <contextParameter comment="" internalId="_uSc_1Pk6Ee2w9o6V70pqNw" name="SIPADX_DB_Server" prompt="SIPADX_DB_Server?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="192.168.1.113"/>
     <contextParameter comment="" internalId="_uSc_1fk6Ee2w9o6V70pqNw" name="SIPADX_DB_Port" prompt="SIPADX_DB_Port?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_uSc_1vk6Ee2w9o6V70pqNw" name="SIPADX_DB_Database" prompt="SIPADX_DB_Database?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="sipadx?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactorysipadx?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory&amp;socketTimeout=0"/>
     <contextParameter comment="" internalId="_uSc_1_k6Ee2w9o6V70pqNw" name="SIPADX_DB_Login" prompt="SIPADX_DB_Login?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="userread"/>
-    <contextParameter comment="" internalId="_uSc_2Pk6Ee2w9o6V70pqNw" name="SIPADX_DB_Password" prompt="SIPADX_DB_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:c7KLXVYg7IShyST/kz1tcHaN5SsS59t2XFZXCBHRD8u/TYHe"/>
+    <contextParameter comment="" internalId="_uSc_2Pk6Ee2w9o6V70pqNw" name="SIPADX_DB_Password" prompt="SIPADX_DB_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:zL93iX0xZ0rccd6t0ywsX/jG5Z0nxg08nN5ELk87OIdpzkWd"/>
     <contextParameter comment="" internalId="_uSc_2fk6Ee2w9o6V70pqNw" name="SIPADX_DB_Schema" prompt="SIPADX_DB_Schema?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="public"/>
     <contextParameter comment="" internalId="_uSc_2vk6Ee2w9o6V70pqNw" name="DWH_AT_MAIL_NOTIFY" prompt="DWH_AT_MAIL_NOTIFY?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="true"/>
     <contextParameter comment="" internalId="_uSc_2_k6Ee2w9o6V70pqNw" name="DWH_AT_MAIL_SMTP_HOST" prompt="DWH_AT_MAIL_SMTP_HOST?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="smtp.autotorino.local"/>
@@ -25,10 +25,10 @@
     <contextParameter comment="" internalId="_uSc_5vk6Ee2w9o6V70pqNw" name="GCP_STORAGE_FOLDER_FULL" prompt="GCP_STORAGE_FOLDER_FULL?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="full_data/"/>
     <contextParameter comment="" internalId="_uSc_5_k6Ee2w9o6V70pqNw" name="GCP_STORAGE_FOLDER_NRT" prompt="GCP_STORAGE_FOLDER_NRT?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="current_day_data/"/>
     <contextParameter comment="" internalId="_uSc_6Pk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_DATASET" prompt="GCP_BIGQUERY_DATASET?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="pru_dataset"/>
-    <contextParameter comment="" internalId="_uSc_6fk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_TABLENAME" prompt="GCP_BIGQUERY_TABLENAME?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="predictions_sold_vehicles_at_data_ritiro"/>
+    <contextParameter comment="" internalId="_uSc_6fk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_TABLENAME" prompt="GCP_BIGQUERY_TABLENAME?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="daily_previsioni_veicoli_venduti_alla_data_di_ritiro"/>
     <contextParameter comment="" internalId="_uSc_6vk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_KEY_JSON_PATH" prompt="GCP_BIGQUERY_KEY_JSON_PATH?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="E:/Talend/Talend-Input/DWH_GCP/key_bigquery.json"/>
     <contextParameter comment="" internalId="_uSc_6_k6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_SELECT_COLUMN" prompt="GCP_BIGQUERY_SELECT_COLUMN?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="veicolo_id,prezzo_vendita,sconto,prezzo_vendita_effettivo,valore_algoritmo,data_previsione,data_ritiro,data_iniziovendita,confidenza,errore_assoluto"/>
-    <contextParameter comment="" internalId="_uSc_7Pk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_WHERE" prompt="GCP_BIGQUERY_WHERE?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_uSc_7Pk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_WHERE" prompt="GCP_BIGQUERY_WHERE?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="DATE(_PARTITIONTIME) = CURRENT_DATE"/>
     <contextParameter comment="" internalId="_uSc_7fk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_ORDER" prompt="GCP_BIGQUERY_ORDER?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_uSc_7vk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_OCI_Path" prompt="ORACLE_CLOUD_OCI_Path?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="E:/Talend/Talend-ConfConnections/OracleCloud/OCI_Conf/conf"/>
     <contextParameter comment="" internalId="_uSc_7_k6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_OCI_Profile" prompt="ORACLE_CLOUD_OCI_Profile?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="OCI_ADMIN"/>
@@ -39,14 +39,14 @@
   </context>
   <context confirmationNeeded="false" name="dev">
     <contextParameter comment="" internalId="_uSc_9Pk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Url" prompt="ORACLE_CLOUD_Url?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="jdbc:oracle:thin:@dwhautosvil_medium?TNS_ADMIN=E:\\Talend\\Talend-ConfConnections\\OracleCloud\\Wallet_autotorinodwh"/>
-    <contextParameter comment="" internalId="_uSc_9fk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Password" prompt="ORACLE_CLOUD_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:f71RKoKSVsdia1yW6BOXo8IMbLjqAZP48Kr7K6o1KL0E8hoINjmEGH1a"/>
+    <contextParameter comment="" internalId="_uSc_9fk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Password" prompt="ORACLE_CLOUD_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:tfnaAQD4/1o7Ml9n9r9Z4F/rGrD0cfhCEUqmZONg9TBtx80XsLx1aur2"/>
     <contextParameter comment="" internalId="_uSc_9vk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Username" prompt="ORACLE_CLOUD_Username?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="DI_DATA_CONFIG"/>
     <contextParameter comment="" internalId="_uSc_9_k6Ee2w9o6V70pqNw" name="TALEND_PATH_FILE_CSV" prompt="TALEND_PATH_FILE_CSV?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="E:/Talend/Talend-Output/DataSource/DWH_GCP/StorageFisico/"/>
     <contextParameter comment="" internalId="_uSc_-Pk6Ee2w9o6V70pqNw" name="SIPADX_DB_Server" prompt="SIPADX_DB_Server?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="192.168.1.113"/>
     <contextParameter comment="" internalId="_uSc_-fk6Ee2w9o6V70pqNw" name="SIPADX_DB_Port" prompt="SIPADX_DB_Port?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_uSc_-vk6Ee2w9o6V70pqNw" name="SIPADX_DB_Database" prompt="SIPADX_DB_Database?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="sipadx?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactorysipadx?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory&amp;socketTimeout=0"/>
     <contextParameter comment="" internalId="_uSc_-_k6Ee2w9o6V70pqNw" name="SIPADX_DB_Login" prompt="SIPADX_DB_Login?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="userread"/>
-    <contextParameter comment="" internalId="_uSc__Pk6Ee2w9o6V70pqNw" name="SIPADX_DB_Password" prompt="SIPADX_DB_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:uvhbYyfhfuAZl8p6UjSABLPLMgEf/ftu72DGef0nHgulIhfo"/>
+    <contextParameter comment="" internalId="_uSc__Pk6Ee2w9o6V70pqNw" name="SIPADX_DB_Password" prompt="SIPADX_DB_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:IK963k5F86hsKcJCKKCkYGiqf60QCMlafxcVhKh+q8caEQNe"/>
     <contextParameter comment="" internalId="_uSc__fk6Ee2w9o6V70pqNw" name="SIPADX_DB_Schema" prompt="SIPADX_DB_Schema?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="public"/>
     <contextParameter comment="" internalId="_uSc__vk6Ee2w9o6V70pqNw" name="DWH_AT_MAIL_NOTIFY" prompt="DWH_AT_MAIL_NOTIFY?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="true"/>
     <contextParameter comment="" internalId="_uSc___k6Ee2w9o6V70pqNw" name="DWH_AT_MAIL_SMTP_HOST" prompt="DWH_AT_MAIL_SMTP_HOST?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="smtp.autotorino.local"/>
@@ -63,10 +63,10 @@
     <contextParameter comment="" internalId="_uSdACvk6Ee2w9o6V70pqNw" name="GCP_STORAGE_FOLDER_FULL" prompt="GCP_STORAGE_FOLDER_FULL?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="full_data/"/>
     <contextParameter comment="" internalId="_uSdAC_k6Ee2w9o6V70pqNw" name="GCP_STORAGE_FOLDER_NRT" prompt="GCP_STORAGE_FOLDER_NRT?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="current_day_data/"/>
     <contextParameter comment="" internalId="_uSdADPk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_DATASET" prompt="GCP_BIGQUERY_DATASET?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="pru_dataset"/>
-    <contextParameter comment="" internalId="_uSdADfk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_TABLENAME" prompt="GCP_BIGQUERY_TABLENAME?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="predictions_sold_vehicles_at_data_ritiro"/>
+    <contextParameter comment="" internalId="_uSdADfk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_TABLENAME" prompt="GCP_BIGQUERY_TABLENAME?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="daily_previsioni_veicoli_venduti_alla_data_di_ritiro"/>
     <contextParameter comment="" internalId="_uSdADvk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_KEY_JSON_PATH" prompt="GCP_BIGQUERY_KEY_JSON_PATH?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="E:/Talend/Talend-Input/DWH_GCP/key_bigquery.json"/>
     <contextParameter comment="" internalId="_uSdAD_k6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_SELECT_COLUMN" prompt="GCP_BIGQUERY_SELECT_COLUMN?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="veicolo_id,prezzo_vendita,sconto,prezzo_vendita_effettivo,valore_algoritmo,data_previsione,data_ritiro,data_iniziovendita,confidenza,errore_assoluto"/>
-    <contextParameter comment="" internalId="_uSdAEPk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_WHERE" prompt="GCP_BIGQUERY_WHERE?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_uSdAEPk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_WHERE" prompt="GCP_BIGQUERY_WHERE?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="DATE(_PARTITIONTIME) = CURRENT_DATE"/>
     <contextParameter comment="" internalId="_uSdAEfk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_ORDER" prompt="GCP_BIGQUERY_ORDER?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_uSdAEvk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_OCI_Path" prompt="ORACLE_CLOUD_OCI_Path?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="E:/Talend/Talend-ConfConnections/OracleCloud/OCI_Conf/conf"/>
     <contextParameter comment="" internalId="_uSdAE_k6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_OCI_Profile" prompt="ORACLE_CLOUD_OCI_Profile?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="OCI_ADMIN"/>
@@ -77,14 +77,14 @@
   </context>
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_uSdAGPk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Url" prompt="ORACLE_CLOUD_Url?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="jdbc:oracle:thin:@autotorinodwh_medium?TNS_ADMIN=C:\\Talend\\Talend-ConfConnections\\OracleCloud\\Wallet_autotorinodwh"/>
-    <contextParameter comment="" internalId="_uSdAGfk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Password" prompt="ORACLE_CLOUD_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:wl2DKCbzr4VwQ/gSREBQcf00Kl+WBKUyODxvQ+NRoTPchlBIQYXNqGp8"/>
+    <contextParameter comment="" internalId="_uSdAGfk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Password" prompt="ORACLE_CLOUD_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:TNKr7Gwr6z+r77rKCTdU62XwfF98BeZOXMeBgJH/Bvrb2praQ3xAnrSC"/>
     <contextParameter comment="" internalId="_uSdAGvk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_Username" prompt="ORACLE_CLOUD_Username?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="DI_DATA_CONFIG"/>
     <contextParameter comment="" internalId="_uSdAG_k6Ee2w9o6V70pqNw" name="TALEND_PATH_FILE_CSV" prompt="TALEND_PATH_FILE_CSV?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="C:/Talend/Talend-Output/DataSource/DWH_GCP/StorageFisico/"/>
     <contextParameter comment="" internalId="_uSdAHPk6Ee2w9o6V70pqNw" name="SIPADX_DB_Server" prompt="SIPADX_DB_Server?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="192.168.1.113"/>
     <contextParameter comment="" internalId="_uSdAHfk6Ee2w9o6V70pqNw" name="SIPADX_DB_Port" prompt="SIPADX_DB_Port?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_uSdAHvk6Ee2w9o6V70pqNw" name="SIPADX_DB_Database" prompt="SIPADX_DB_Database?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="sipadx?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactorysipadx?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory&amp;socketTimeout=0"/>
     <contextParameter comment="" internalId="_uSdAH_k6Ee2w9o6V70pqNw" name="SIPADX_DB_Login" prompt="SIPADX_DB_Login?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="userread"/>
-    <contextParameter comment="" internalId="_uSdAIPk6Ee2w9o6V70pqNw" name="SIPADX_DB_Password" prompt="SIPADX_DB_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:UbBWjqdTZEPSPHwD5ESHjH0qkQXDz9sGNimEhA4s9JcgnHsO"/>
+    <contextParameter comment="" internalId="_uSdAIPk6Ee2w9o6V70pqNw" name="SIPADX_DB_Password" prompt="SIPADX_DB_Password?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_Password" value="enc:system.encryption.key.v1:y48sX/xT/dnUg5NvT/1gWhXSxdwpkU7iBpC5ZfAFuEflzunv"/>
     <contextParameter comment="" internalId="_uSdAIfk6Ee2w9o6V70pqNw" name="SIPADX_DB_Schema" prompt="SIPADX_DB_Schema?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="public"/>
     <contextParameter comment="" internalId="_uSdAIvk6Ee2w9o6V70pqNw" name="DWH_AT_MAIL_NOTIFY" prompt="DWH_AT_MAIL_NOTIFY?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="true"/>
     <contextParameter comment="" internalId="_uSdAI_k6Ee2w9o6V70pqNw" name="DWH_AT_MAIL_SMTP_HOST" prompt="DWH_AT_MAIL_SMTP_HOST?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="smtp.autotorino.local"/>
@@ -101,10 +101,10 @@
     <contextParameter comment="" internalId="_uSdALvk6Ee2w9o6V70pqNw" name="GCP_STORAGE_FOLDER_FULL" prompt="GCP_STORAGE_FOLDER_FULL?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="full_data/"/>
     <contextParameter comment="" internalId="_uSdAL_k6Ee2w9o6V70pqNw" name="GCP_STORAGE_FOLDER_NRT" prompt="GCP_STORAGE_FOLDER_NRT?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="current_day_data/"/>
     <contextParameter comment="" internalId="_uSdAMPk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_DATASET" prompt="GCP_BIGQUERY_DATASET?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="pru_dataset"/>
-    <contextParameter comment="" internalId="_uSdAMfk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_TABLENAME" prompt="GCP_BIGQUERY_TABLENAME?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="predictions_sold_vehicles_at_data_ritiro"/>
+    <contextParameter comment="" internalId="_uSdAMfk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_TABLENAME" prompt="GCP_BIGQUERY_TABLENAME?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="daily_previsioni_veicoli_venduti_alla_data_di_ritiro"/>
     <contextParameter comment="" internalId="_uSdAMvk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_KEY_JSON_PATH" prompt="GCP_BIGQUERY_KEY_JSON_PATH?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="C:/Talend/Talend-Input/DWH_GCP/key_bigquery.json"/>
     <contextParameter comment="" internalId="_uSdAM_k6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_SELECT_COLUMN" prompt="GCP_BIGQUERY_SELECT_COLUMN?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="veicolo_id,prezzo_vendita,sconto,prezzo_vendita_effettivo,valore_algoritmo,data_previsione,data_ritiro,data_iniziovendita,confidenza,errore_assoluto"/>
-    <contextParameter comment="" internalId="_uSdANPk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_WHERE" prompt="GCP_BIGQUERY_WHERE?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_uSdANPk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_WHERE" prompt="GCP_BIGQUERY_WHERE?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="DATE(_PARTITIONTIME) = CURRENT_DATE"/>
     <contextParameter comment="" internalId="_uSdANfk6Ee2w9o6V70pqNw" name="GCP_BIGQUERY_ORDER" prompt="GCP_BIGQUERY_ORDER?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_uSdANvk6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_OCI_Path" prompt="ORACLE_CLOUD_OCI_Path?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="C:/Talend/Talend-ConfConnections/OracleCloud/OCI_Conf/conf"/>
     <contextParameter comment="" internalId="_uSdAN_k6Ee2w9o6V70pqNw" name="ORACLE_CLOUD_OCI_Profile" prompt="ORACLE_CLOUD_OCI_Profile?" promptNeeded="false" repositoryContextId="_McuX8KloEemvdbMxCJroiw" type="id_String" value="OCI_ADMIN"/>
@@ -158,7 +158,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:GsOpY1QNdoyXcUwuMg19zyo9BJjvBv0n0r4ahKza"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:RDOM0wxRog6mLvM89DO4X/PrhkoPB91OBPjG5IoK"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -193,7 +193,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:cpfO5GzsqupCqVE80CouylXa/wJrHyrtwf9UgUNU"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:POcUYhKkS/2NeoLb6fszr2YlUY7+ezPjsWmyWVdN"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -268,7 +268,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ORACLE_CLOUD_Url"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.ORACLE_CLOUD_Username"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:UTCvujdVSbG7iT3Xc+vHlRgxg1RQGBI7qyvQNw3mShKDn4aq8wOqBv/rNVQ861nzeHoYZdEeLsB8"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Q5fgrMPDTuHluAJmZwt6e8VZu5JHEw1wGrq6zyKfuCWn5TZYuy9pDO4JjVqzhjUXwz/W+jCHNmYi"/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -345,7 +345,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RVjpD2WhvMa1uRTYVW1ngTvFmL11NMtSIrXrJJMP"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1NqnazDbEwQGr0DQ1RPAH0ccIVbiM8bavBr67qLO"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DI_DATA_CONFIG.TAL_JOB_PROCESS&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -442,7 +442,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.ORACLE_CLOUD_Username"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JpG7t9Bq1Ir0bOlDL6Gnu7p/weJ0ix3DOgcrLClSmTtm1xG0bkXRn9zOQ8pSjzNEvvgmB53P5srp"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:D5W58fJ1xzuxbMbzWaeg/7BACCNf8O61t4+1pUNXwYecJtPAOcXgIlH3bzXecdGH39t9cOywVvjC"/>
     <elementParameter field="DBTABLE" name="TABLE" value=""/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -488,7 +488,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.ORACLE_CLOUD_Username"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:LJrHIomtsnn5YM6mCU0t/LcQq2ERTPQdYKGdMJnVKOV6NA4s42mCwfbvag2vhXuTMFnCt0kJTOOU"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:SOBlTpGEwID0jBrG2Cke+D4WA8+os4ihvxQ5mq0LsAcnee7a20v3bqEecMINE2+t7Yyy6wYkJKkE"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -564,13 +564,13 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.ORACLE_CLOUD_Username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5CEnDagvJBUpNzvYEO0lZe8utg/UElKpmaYoH+YbAjnk7mNgcXlBhE413CS8WFG6+CQGia1EDrV3"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oMWPmxJGFLMk0iO8t6NUreeZ2npt7eorpJ0sVzmYnUOvsIXiEiO8K0buftbFocKvNDheEpCo3iKc"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:7sLeo7Z6zuvPCqGKLoZDgZaUgB9+Q7CJ4YoPT3Qa"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1://a2w1WO604D00nsZx8osbJvbBkEPUT/f2f/tZUu"/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:6WFQRwm9uHaKJYMZVRB7ROu4cFqaLfSMpqBkQ52e"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:YNLkPvSYbZCBxwIVti5MaQ4bGVakV6G0EMOejJD1"/>
     <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -600,7 +600,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:E9sxwlSQUym1GuO+HNl4f4gBR1LGmxZh0ApaRiWS"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:+QtEK2lRa3VoZ6JiMEMSJ8W2FDBnrEE5jwl5afIN"/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value=""/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -854,13 +854,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0415774e-383e-4180-8668-b7807453f11c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+V+AuZEi13l+KMBcFB7jQo1XK5Y8SSrPHOZ/o8iVckyRyoSpfQH44o33rwDr2jOLUbUYiq/D5M8M&#13;
-QLso+O9WWQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_418cd50c-d03a-4cc9-8e60-0dcd9ba05b1a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hE+bNFhwFwpI8KpeKZEOYSo+k1/5bVETVFaM/0YR9m+IeXHy1hwJuw5z5SQN7epEqqGA5ElHPTXi&#13;
-LkRU3T6zKw==</DigestValue></Reference></SignedInfo><SignatureValue>Her4vbg/cysOrtwItUsNNgBKwfiFV06cotNMNVUKHXtbVKbUDc65bNL6rHAFRNMJ5bka6LmCBcgm&#13;
-7kRhCG6CvbNoRFHgqVQx19/BEMPhx2MZ7nKidz3pb+uWRewYZKRo4Rm6U9oZvccCO2XIUuGGDxyu&#13;
-oxKoYur9+0GzPHdqqpViDrPHN5mB5sYRgMMwvMhCnKydYYXkCZwblFEN9eCzqBSRW9NJme6YSHEM&#13;
-PvcuyhvyO1YrrFcCSjnUUbsyPssyWcFoFBBsHYb1+M4/Et1tTzPxUdv9hrQat3qwWTutHj2NWALm&#13;
-UZpvKwFgldtUmGZ1QNlFPoOKVAE7zvdY7iAjBQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_66ff9db9-67af-4db7-baac-d3dcc046b617"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>x66SU48KV90fubB7/jKpYtTuKwSSOWTP8n2WnU8SoUnCi/UGbjZrkynzRwRbyoWRKdCyubO44wv/&#13;
+Qj3XX6AnFQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a8ba28cc-f1b5-4ec0-ab32-011546458e71"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4ornMa+PU813MlRPPpNbCPLtacM2mqSKnpYQBCzcE5DbtZOQpX3Pw8vjaaUa1ns/C/hTHnDMPLjg&#13;
+kqwzxyM33w==</DigestValue></Reference></SignedInfo><SignatureValue>AKeiBWSmzLfu72+jmu/2Y7h6+gR0aVusyhfkEC8HwNGtLeishm3pv4ejRaHfCEtXK6eGLT7yTkLl&#13;
+x4qow0USGKeC24vnpIb/N7ewvjAOSOsqpIpZ/K9GWgLdy5FgNDLE+kI7pP7g6qpzxB8vgKSK86Gi&#13;
+bgzx8g46G8rKXpafDghG+Lt9R3YvHXTsJMEWx0ixf1H+EBXUvDmKXCsnBJNb1xPIOvdVSX8AwGTC&#13;
+vjdRx0Vc4rrVTakB+4tuLxZzLZsVpQYaqjo/y2plkxXwb8Sgl7DnGts0EzAOn59Ra7+jxFutj+Mf&#13;
+S674ohJeikaBcvSdG9ZlmX4wqLdYS7rAtpL1cA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -882,4 +882,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_418cd50c-d03a-4cc9-8e60-0dcd9ba05b1a" Target="#_0415774e-383e-4180-8668-b7807453f11c"><Timestamp>2023-06-01 07:33:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a8ba28cc-f1b5-4ec0-ab32-011546458e71" Target="#_66ff9db9-67af-4db7-baac-d3dcc046b617"><Timestamp>2023-06-15 08:21:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
