@@ -4,38 +4,11 @@
     "contextName" : "prod",
     "repoId" : "_McuX8KloEemvdbMxCJroiw",
     "parameterList" : [ {
-      "id" : "_bTFEpS6_Ee2jc6ycqzj-lg",
-      "name" : "ORACLE_CLOUD_Url"
-    }, {
-      "id" : "_bTFEpi6_Ee2jc6ycqzj-lg",
-      "name" : "ORACLE_CLOUD_Password"
-    }, {
-      "id" : "_bTFEpy6_Ee2jc6ycqzj-lg",
-      "name" : "ORACLE_CLOUD_Username"
-    }, {
-      "id" : "_bTFEqC6_Ee2jc6ycqzj-lg",
-      "name" : "TALEND_PATH_FILE_CSV"
-    }, {
-      "id" : "_bTFEqS6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Server"
-    }, {
-      "id" : "_bTFEqi6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Port"
-    }, {
-      "id" : "_bTFEqy6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Database"
-    }, {
-      "id" : "_bTFErC6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Login"
-    }, {
-      "id" : "_bTFErS6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Password"
-    }, {
-      "id" : "_bTFEri6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Schema"
-    }, {
       "id" : "_bTFEry6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_NOTIFY"
+    }, {
+      "id" : "_bTFEtC6_Ee2jc6ycqzj-lg",
+      "name" : "DWH_AT_MAIL_SMTP_DEST"
     }, {
       "id" : "_bTFEsC6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_SMTP_HOST"
@@ -43,29 +16,29 @@
       "id" : "_bTFEsS6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_SMTP_PORT"
     }, {
-      "id" : "_bTFEsi6_Ee2jc6ycqzj-lg",
-      "name" : "DWH_AT_MAIL_SMTP_USER"
-    }, {
       "id" : "_bTFEsy6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_SMTP_PWD"
     }, {
-      "id" : "_bTFEtC6_Ee2jc6ycqzj-lg",
-      "name" : "DWH_AT_MAIL_SMTP_DEST"
+      "id" : "_bTFEsi6_Ee2jc6ycqzj-lg",
+      "name" : "DWH_AT_MAIL_SMTP_USER"
     }, {
-      "id" : "_bTFEtS6_Ee2jc6ycqzj-lg",
-      "name" : "TALEND_PATH_LOG"
+      "id" : "_SB1NpvicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_DATASET"
     }, {
-      "id" : "_bTFEti6_Ee2jc6ycqzj-lg",
-      "name" : "RESERVATION_PROCESS_ID"
+      "id" : "_SB1NqPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
     }, {
-      "id" : "_bTFEty6_Ee2jc6ycqzj-lg",
-      "name" : "RETENTION_BACKUP_FILE"
+      "id" : "_SB1Nq_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_ORDER"
     }, {
-      "id" : "_foyPsuUNEe2S5sU4j_wVZA",
-      "name" : "GCP_STORAGE_KEY_JSON_PATH"
+      "id" : "_SB1NqficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
     }, {
-      "id" : "_foyPs-UNEe2S5sU4j_wVZA",
-      "name" : "GCP_STORAGE_PROJECT_ID"
+      "id" : "_SB1Np_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_TABLENAME"
+    }, {
+      "id" : "_SB1NqvicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_WHERE"
     }, {
       "id" : "_KqVN4uUPEe2S5sU4j_wVZA",
       "name" : "GCP_STORAGE_BUCKET_NAME"
@@ -76,32 +49,11 @@
       "id" : "_rTqeQfO6Ee299I925hQfuA",
       "name" : "GCP_STORAGE_FOLDER_NRT"
     }, {
-      "id" : "_SB1NpvicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_DATASET"
+      "id" : "_foyPsuUNEe2S5sU4j_wVZA",
+      "name" : "GCP_STORAGE_KEY_JSON_PATH"
     }, {
-      "id" : "_SB1Np_icEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_TABLENAME"
-    }, {
-      "id" : "_SB1NqPicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
-    }, {
-      "id" : "_SB1NqficEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
-    }, {
-      "id" : "_SB1NqvicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_WHERE"
-    }, {
-      "id" : "_SB1Nq_icEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_ORDER"
-    }, {
-      "id" : "_Zer19vk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_Path"
-    }, {
-      "id" : "_Zer19_k6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_Profile"
-    }, {
-      "id" : "_Zer1-Pk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+      "id" : "_foyPs-UNEe2S5sU4j_wVZA",
+      "name" : "GCP_STORAGE_PROJECT_ID"
     }, {
       "id" : "_Zer1-fk6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_Bucket"
@@ -109,45 +61,66 @@
       "id" : "_Zer1-vk6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_ContentType"
     }, {
+      "id" : "_Zer1-Pk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+    }, {
+      "id" : "_Zer19vk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Path"
+    }, {
+      "id" : "_Zer19_k6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Profile"
+    }, {
       "id" : "_Zer1-_k6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_Region"
+    }, {
+      "id" : "_bTFEpi6_Ee2jc6ycqzj-lg",
+      "name" : "ORACLE_CLOUD_Password"
+    }, {
+      "id" : "_bTFEpS6_Ee2jc6ycqzj-lg",
+      "name" : "ORACLE_CLOUD_Url"
+    }, {
+      "id" : "_bTFEpy6_Ee2jc6ycqzj-lg",
+      "name" : "ORACLE_CLOUD_Username"
+    }, {
+      "id" : "_bTFEti6_Ee2jc6ycqzj-lg",
+      "name" : "RESERVATION_PROCESS_ID"
+    }, {
+      "id" : "_bTFEty6_Ee2jc6ycqzj-lg",
+      "name" : "RETENTION_BACKUP_FILE"
+    }, {
+      "id" : "_bTFEqy6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Database"
+    }, {
+      "id" : "_bTFErC6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Login"
+    }, {
+      "id" : "_bTFErS6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Password"
+    }, {
+      "id" : "_bTFEqi6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Port"
+    }, {
+      "id" : "_bTFEri6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Schema"
+    }, {
+      "id" : "_bTFEqS6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Server"
+    }, {
+      "id" : "_bTFEqC6_Ee2jc6ycqzj-lg",
+      "name" : "TALEND_PATH_FILE_CSV"
+    }, {
+      "id" : "_bTFEtS6_Ee2jc6ycqzj-lg",
+      "name" : "TALEND_PATH_LOG"
     } ]
   }, {
     "contextName" : "dev",
     "repoId" : "_McuX8KloEemvdbMxCJroiw",
     "parameterList" : [ {
-      "id" : "_INOFVQKREe2-icQr7yKshg",
-      "name" : "ORACLE_CLOUD_Url"
-    }, {
-      "id" : "_INOFVgKREe2-icQr7yKshg",
-      "name" : "ORACLE_CLOUD_Password"
-    }, {
-      "id" : "_INOFVwKREe2-icQr7yKshg",
-      "name" : "ORACLE_CLOUD_Username"
-    }, {
-      "id" : "_INOFWAKREe2-icQr7yKshg",
-      "name" : "TALEND_PATH_FILE_CSV"
-    }, {
-      "id" : "_INOFWQKREe2-icQr7yKshg",
-      "name" : "SIPADX_DB_Server"
-    }, {
-      "id" : "_INOFWgKREe2-icQr7yKshg",
-      "name" : "SIPADX_DB_Port"
-    }, {
-      "id" : "_INOFWwKREe2-icQr7yKshg",
-      "name" : "SIPADX_DB_Database"
-    }, {
-      "id" : "_INOFXAKREe2-icQr7yKshg",
-      "name" : "SIPADX_DB_Login"
-    }, {
-      "id" : "_INOFXQKREe2-icQr7yKshg",
-      "name" : "SIPADX_DB_Password"
-    }, {
-      "id" : "_INOFXgKREe2-icQr7yKshg",
-      "name" : "SIPADX_DB_Schema"
-    }, {
       "id" : "_INOFXwKREe2-icQr7yKshg",
       "name" : "DWH_AT_MAIL_NOTIFY"
+    }, {
+      "id" : "_INOFZAKREe2-icQr7yKshg",
+      "name" : "DWH_AT_MAIL_SMTP_DEST"
     }, {
       "id" : "_INOFYAKREe2-icQr7yKshg",
       "name" : "DWH_AT_MAIL_SMTP_HOST"
@@ -155,29 +128,29 @@
       "id" : "_INOFYQKREe2-icQr7yKshg",
       "name" : "DWH_AT_MAIL_SMTP_PORT"
     }, {
-      "id" : "_INOFYgKREe2-icQr7yKshg",
-      "name" : "DWH_AT_MAIL_SMTP_USER"
-    }, {
       "id" : "_INOFYwKREe2-icQr7yKshg",
       "name" : "DWH_AT_MAIL_SMTP_PWD"
     }, {
-      "id" : "_INOFZAKREe2-icQr7yKshg",
-      "name" : "DWH_AT_MAIL_SMTP_DEST"
+      "id" : "_INOFYgKREe2-icQr7yKshg",
+      "name" : "DWH_AT_MAIL_SMTP_USER"
     }, {
-      "id" : "_INOFZQKREe2-icQr7yKshg",
-      "name" : "TALEND_PATH_LOG"
+      "id" : "_SB1NrPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_DATASET"
     }, {
-      "id" : "_INOFZgKREe2-icQr7yKshg",
-      "name" : "RESERVATION_PROCESS_ID"
+      "id" : "_SB1NrvicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
     }, {
-      "id" : "_INOFZwKREe2-icQr7yKshg",
-      "name" : "RETENTION_BACKUP_FILE"
+      "id" : "_SB1NsficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_ORDER"
     }, {
-      "id" : "_foyPtOUNEe2S5sU4j_wVZA",
-      "name" : "GCP_STORAGE_KEY_JSON_PATH"
+      "id" : "_SB1Nr_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
     }, {
-      "id" : "_foyPteUNEe2S5sU4j_wVZA",
-      "name" : "GCP_STORAGE_PROJECT_ID"
+      "id" : "_SB1NrficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_TABLENAME"
+    }, {
+      "id" : "_SB1NsPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_WHERE"
     }, {
       "id" : "_KqVN5OUPEe2S5sU4j_wVZA",
       "name" : "GCP_STORAGE_BUCKET_NAME"
@@ -188,32 +161,11 @@
       "id" : "_rTqeQ_O6Ee299I925hQfuA",
       "name" : "GCP_STORAGE_FOLDER_NRT"
     }, {
-      "id" : "_SB1NrPicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_DATASET"
+      "id" : "_foyPtOUNEe2S5sU4j_wVZA",
+      "name" : "GCP_STORAGE_KEY_JSON_PATH"
     }, {
-      "id" : "_SB1NrficEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_TABLENAME"
-    }, {
-      "id" : "_SB1NrvicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
-    }, {
-      "id" : "_SB1Nr_icEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
-    }, {
-      "id" : "_SB1NsPicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_WHERE"
-    }, {
-      "id" : "_SB1NsficEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_ORDER"
-    }, {
-      "id" : "_Zer1_Pk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_Path"
-    }, {
-      "id" : "_Zer1_fk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_Profile"
-    }, {
-      "id" : "_Zer1_vk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+      "id" : "_foyPteUNEe2S5sU4j_wVZA",
+      "name" : "GCP_STORAGE_PROJECT_ID"
     }, {
       "id" : "_Zer1__k6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_Bucket"
@@ -221,45 +173,66 @@
       "id" : "_Zer2APk6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_ContentType"
     }, {
+      "id" : "_Zer1_vk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+    }, {
+      "id" : "_Zer1_Pk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Path"
+    }, {
+      "id" : "_Zer1_fk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Profile"
+    }, {
       "id" : "_Zer2Afk6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_Region"
+    }, {
+      "id" : "_INOFVgKREe2-icQr7yKshg",
+      "name" : "ORACLE_CLOUD_Password"
+    }, {
+      "id" : "_INOFVQKREe2-icQr7yKshg",
+      "name" : "ORACLE_CLOUD_Url"
+    }, {
+      "id" : "_INOFVwKREe2-icQr7yKshg",
+      "name" : "ORACLE_CLOUD_Username"
+    }, {
+      "id" : "_INOFZgKREe2-icQr7yKshg",
+      "name" : "RESERVATION_PROCESS_ID"
+    }, {
+      "id" : "_INOFZwKREe2-icQr7yKshg",
+      "name" : "RETENTION_BACKUP_FILE"
+    }, {
+      "id" : "_INOFWwKREe2-icQr7yKshg",
+      "name" : "SIPADX_DB_Database"
+    }, {
+      "id" : "_INOFXAKREe2-icQr7yKshg",
+      "name" : "SIPADX_DB_Login"
+    }, {
+      "id" : "_INOFXQKREe2-icQr7yKshg",
+      "name" : "SIPADX_DB_Password"
+    }, {
+      "id" : "_INOFWgKREe2-icQr7yKshg",
+      "name" : "SIPADX_DB_Port"
+    }, {
+      "id" : "_INOFXgKREe2-icQr7yKshg",
+      "name" : "SIPADX_DB_Schema"
+    }, {
+      "id" : "_INOFWQKREe2-icQr7yKshg",
+      "name" : "SIPADX_DB_Server"
+    }, {
+      "id" : "_INOFWAKREe2-icQr7yKshg",
+      "name" : "TALEND_PATH_FILE_CSV"
+    }, {
+      "id" : "_INOFZQKREe2-icQr7yKshg",
+      "name" : "TALEND_PATH_LOG"
     } ]
   }, {
     "contextName" : "Default",
     "repoId" : "_McuX8KloEemvdbMxCJroiw",
     "parameterList" : [ {
-      "id" : "_bTFEkS6_Ee2jc6ycqzj-lg",
-      "name" : "ORACLE_CLOUD_Url"
-    }, {
-      "id" : "_bTFEki6_Ee2jc6ycqzj-lg",
-      "name" : "ORACLE_CLOUD_Password"
-    }, {
-      "id" : "_bTFEky6_Ee2jc6ycqzj-lg",
-      "name" : "ORACLE_CLOUD_Username"
-    }, {
-      "id" : "_bTFElC6_Ee2jc6ycqzj-lg",
-      "name" : "TALEND_PATH_FILE_CSV"
-    }, {
-      "id" : "_bTFElS6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Server"
-    }, {
-      "id" : "_bTFEli6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Port"
-    }, {
-      "id" : "_bTFEly6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Database"
-    }, {
-      "id" : "_bTFEmC6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Login"
-    }, {
-      "id" : "_bTFEmS6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Password"
-    }, {
-      "id" : "_bTFEmi6_Ee2jc6ycqzj-lg",
-      "name" : "SIPADX_DB_Schema"
-    }, {
       "id" : "_bTFEmy6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_NOTIFY"
+    }, {
+      "id" : "_bTFEoC6_Ee2jc6ycqzj-lg",
+      "name" : "DWH_AT_MAIL_SMTP_DEST"
     }, {
       "id" : "_bTFEnC6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_SMTP_HOST"
@@ -267,29 +240,29 @@
       "id" : "_bTFEnS6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_SMTP_PORT"
     }, {
-      "id" : "_bTFEni6_Ee2jc6ycqzj-lg",
-      "name" : "DWH_AT_MAIL_SMTP_USER"
-    }, {
       "id" : "_bTFEny6_Ee2jc6ycqzj-lg",
       "name" : "DWH_AT_MAIL_SMTP_PWD"
     }, {
-      "id" : "_bTFEoC6_Ee2jc6ycqzj-lg",
-      "name" : "DWH_AT_MAIL_SMTP_DEST"
+      "id" : "_bTFEni6_Ee2jc6ycqzj-lg",
+      "name" : "DWH_AT_MAIL_SMTP_USER"
     }, {
-      "id" : "_bTFEoS6_Ee2jc6ycqzj-lg",
-      "name" : "TALEND_PATH_LOG"
+      "id" : "_SB1NoPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_DATASET"
     }, {
-      "id" : "_bTFEoi6_Ee2jc6ycqzj-lg",
-      "name" : "RESERVATION_PROCESS_ID"
+      "id" : "_SB1NovicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
     }, {
-      "id" : "_bTFEoy6_Ee2jc6ycqzj-lg",
-      "name" : "RETENTION_BACKUP_FILE"
+      "id" : "_SB1NpficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_ORDER"
     }, {
-      "id" : "_foyPsOUNEe2S5sU4j_wVZA",
-      "name" : "GCP_STORAGE_KEY_JSON_PATH"
+      "id" : "_SB1No_icEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
     }, {
-      "id" : "_foyPseUNEe2S5sU4j_wVZA",
-      "name" : "GCP_STORAGE_PROJECT_ID"
+      "id" : "_SB1NoficEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_TABLENAME"
+    }, {
+      "id" : "_SB1NpPicEe2P1PQOyOra7A",
+      "name" : "GCP_BIGQUERY_WHERE"
     }, {
       "id" : "_KqVN4OUPEe2S5sU4j_wVZA",
       "name" : "GCP_STORAGE_BUCKET_NAME"
@@ -300,32 +273,11 @@
       "id" : "_rTp3MfO6Ee299I925hQfuA",
       "name" : "GCP_STORAGE_FOLDER_NRT"
     }, {
-      "id" : "_SB1NoPicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_DATASET"
+      "id" : "_foyPsOUNEe2S5sU4j_wVZA",
+      "name" : "GCP_STORAGE_KEY_JSON_PATH"
     }, {
-      "id" : "_SB1NoficEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_TABLENAME"
-    }, {
-      "id" : "_SB1NovicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_KEY_JSON_PATH"
-    }, {
-      "id" : "_SB1No_icEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_SELECT_COLUMN"
-    }, {
-      "id" : "_SB1NpPicEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_WHERE"
-    }, {
-      "id" : "_SB1NpficEe2P1PQOyOra7A",
-      "name" : "GCP_BIGQUERY_ORDER"
-    }, {
-      "id" : "_Zer18Pk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_Path"
-    }, {
-      "id" : "_Zer18fk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_Profile"
-    }, {
-      "id" : "_Zer18vk6Ee2w9o6V70pqNw",
-      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+      "id" : "_foyPseUNEe2S5sU4j_wVZA",
+      "name" : "GCP_STORAGE_PROJECT_ID"
     }, {
       "id" : "_Zer18_k6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_Bucket"
@@ -333,8 +285,56 @@
       "id" : "_Zer19Pk6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_ContentType"
     }, {
+      "id" : "_Zer18vk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_NameSpace"
+    }, {
+      "id" : "_Zer18Pk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Path"
+    }, {
+      "id" : "_Zer18fk6Ee2w9o6V70pqNw",
+      "name" : "ORACLE_CLOUD_OCI_Profile"
+    }, {
       "id" : "_Zer19fk6Ee2w9o6V70pqNw",
       "name" : "ORACLE_CLOUD_OCI_Region"
+    }, {
+      "id" : "_bTFEki6_Ee2jc6ycqzj-lg",
+      "name" : "ORACLE_CLOUD_Password"
+    }, {
+      "id" : "_bTFEkS6_Ee2jc6ycqzj-lg",
+      "name" : "ORACLE_CLOUD_Url"
+    }, {
+      "id" : "_bTFEky6_Ee2jc6ycqzj-lg",
+      "name" : "ORACLE_CLOUD_Username"
+    }, {
+      "id" : "_bTFEoi6_Ee2jc6ycqzj-lg",
+      "name" : "RESERVATION_PROCESS_ID"
+    }, {
+      "id" : "_bTFEoy6_Ee2jc6ycqzj-lg",
+      "name" : "RETENTION_BACKUP_FILE"
+    }, {
+      "id" : "_bTFEly6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Database"
+    }, {
+      "id" : "_bTFEmC6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Login"
+    }, {
+      "id" : "_bTFEmS6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Password"
+    }, {
+      "id" : "_bTFEli6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Port"
+    }, {
+      "id" : "_bTFEmi6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Schema"
+    }, {
+      "id" : "_bTFElS6_Ee2jc6ycqzj-lg",
+      "name" : "SIPADX_DB_Server"
+    }, {
+      "id" : "_bTFElC6_Ee2jc6ycqzj-lg",
+      "name" : "TALEND_PATH_FILE_CSV"
+    }, {
+      "id" : "_bTFEoS6_Ee2jc6ycqzj-lg",
+      "name" : "TALEND_PATH_LOG"
     } ]
   } ]
 }
